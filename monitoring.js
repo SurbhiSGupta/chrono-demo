@@ -8,7 +8,7 @@ const meter = new MeterProvider({
   exporter: new PrometheusExporter({port: 9091}),
 }).getMeter('prometheus');
 
-const requestCount = meter.createCounter("requests", {
+const requestCount = meter.createCounter("requests_surbhi_dev", {
   description: "Count all incoming requests",
   monotonic: true,
   labelKeys: ["metricOrigin"],

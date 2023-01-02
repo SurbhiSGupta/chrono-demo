@@ -369,8 +369,8 @@ metadata:
 ---
 apiVersion: v1
 data:
-  address: {ADDRESS_HERE}
-  api-token: {TOKEN_HERE}
+  address: cmMtdWF0LXFhLmNocm9ub3NwaGVyZS5pbzo0NDM=
+  api-token: YTJiMzNmZTQwZDgwMzNmY2FkNzhlMzFhYTE4MDgwYWYxMzQ5NmNkMDliODA1M2U0ODNiMGY2YTJmYjA5Mzk0Yg==
 kind: Secret
 metadata:
   labels:
